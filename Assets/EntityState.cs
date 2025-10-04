@@ -1,14 +1,16 @@
 using UnityEngine;
 
-public class EntityState
+public abstract class EntityState
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
    protected StateMachine stateMachine;
+   protected Player player;
    protected string stateName;
 
-    public EntityState(StateMachine stateMachine, string stateName)
+    public EntityState(Player player, StateMachine stateMachine, string stateName)
     {
         this.stateMachine = stateMachine;
+        this.player = player;
         this.stateName = stateName;
     }
 

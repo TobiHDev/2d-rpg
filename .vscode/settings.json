@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
     },
-    "dotnet.defaultSolution": "Tilevania.sln"
+    "dotnet.defaultSolution": "2D - RPG.sln"
 }
